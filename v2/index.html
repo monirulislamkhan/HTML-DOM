@@ -4,9 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+
+      body {
+        background-color: #202020;
+      }
+      /* .display-none{
+        display: none;
+      }
+      .visibility-hidden{
+        visibility: hidden;
+      } */
+      .box{
+        border: red solid 1px;
+        padding: 10px;
+        margin: 10px;
+        width: 300px;
+        height: 100px;
+        /* display: inline-block; */
+        box-sizing: border-box;
+        /* max-width: 100%; */
+        position: relative;
+      }
+      .inner-box{
+        border: green solid 1px;
+        position: fixed;
+        top: 0;
+      }
+    </style>
   </head>
   <body>
-    <h2>Users Data</h2>
+    <!-- Box model -->
+    <div class="box">
+      <h2>Users Data 1 width 100px</h2>
+<div class="inner-box">Inner box</div>
+    </div>
+    
     <div id="users-container"></div>
     <script type="module" src="./script.js"></script>
   </body>

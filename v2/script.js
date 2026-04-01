@@ -62,7 +62,7 @@ if (marks >= 90) {
   console.log('Grade D');
 } */
 // Nested if-else login with role check
-let isLoggedIn = false;
+/* let isLoggedIn = false;
 let role = 'admin';
 
 if (isLoggedIn) {
@@ -75,7 +75,7 @@ if (isLoggedIn) {
   }
 } else {
   console.log('Please log in');
-}
+} */
 
 // console.log('hello');
 // ✅ Sahi tarika — response.ok check karo
