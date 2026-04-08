@@ -77,6 +77,8 @@ if (isLoggedIn) {
   console.log('Please log in');
 } */
 
+// console.log('Hello World1');
+
 // console.log('hello');
 // ✅ Sahi tarika — response.ok check karo
 /* async function getUser() {
@@ -112,3 +114,8 @@ getUser(); */
   }
 }
 getUser(9); */
+
+/* const propertyTagStatus = 'Sold Out';
+const hiddenTags = ['Sold Out', 'Resale'];
+const showTag = !hiddenTags.includes(propertyTagStatus);
+console.log(showTag); */
